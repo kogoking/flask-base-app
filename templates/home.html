@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h2>Home Page</h2>
+<p>
+    Hello {{ username }}! This is your home page. <br>
+    <br> Your password is hashed with sha256 and stored in MySql database.
+    <br> You can check your username / email id from the Profile page.
+    <br> You can hit the Logout button to start another session.
+    <br> That's it - this is all you can do on this flask base app.
+    <br> To edit these lines, check home.html - Good luck with your project :)
+</p>
+{% endblock %}
